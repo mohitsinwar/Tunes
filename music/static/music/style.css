@@ -1,0 +1,11 @@
+body{
+    background: white url("images/pexels-henry-&-co-1939485.jpg");
+}
+
+.navbar{
+    border-radius: 0;
+}
+
+.navbar-brand{
+    font-family: "Sofia", sans-serif;
+}
