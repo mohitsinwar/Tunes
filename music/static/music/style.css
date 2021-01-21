@@ -1,11 +1,31 @@
 body{
-    background: white url("images/pexels-henry-&-co-1939485.jpg");
+    background: white url("images/back.jpg") ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.navbar{
+ul.errorlist {
+    padding-left: 0;
+}
+
+ul.errorlist > li {
+    list-style: none;
+}
+
+.navbar {
     border-radius: 0;
 }
 
-.navbar-brand{
-    font-family: "Sofia", sans-serif;
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+
+.glyphicon-star {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.glyphicon-star.active {
+    color: #FDB230;
 }
